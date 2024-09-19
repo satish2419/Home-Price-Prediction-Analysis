@@ -1,15 +1,17 @@
 # Home-Price-Prediction-Analysis
 
-# Understanding the Problem:
-We're tasked with predicting house prices using a dataset containing information like Address, Rooms, Type, Price, Seller, etc. Ridge and Lasso regression are suitable for this task due to their ability to handle multicollinearity and prevent overfitting, which are common issues in regression problems.
+ Understanding the Problem:
+I am tasked with predicting house prices based on a dataset containing information like Address, Rooms, Type, Price, Seller, etc. Before making predictions, I preprocessed the data to handle irregularities and implemented various techniques to improve prediction accuracy. 
 
 # Data Preprocessing Steps:
 ## Model Selection and Training:
 
 Split Data:
+Divided the dataset into training and testing sets.
 
-Divide the dataset into training and testing sets.
-Model Selection:
+# Model Selection:
+Linear Regression:
+A baseline model to establish a benchmark.
 
 Choose between Ridge and Lasso regression based on the specific goals.
 **Ridge Regression**: Suitable for preventing overfitting when there's multicollinearity.
